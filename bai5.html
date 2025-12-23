@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Form đặt hàng đơn giản</title>
+</head>
+<body>
+
+    <h2>FORM ĐẶT HÀNG</h2>
+
+    <form>
+
+        Tên khách hàng:<br>
+        <input type="text" name="tenkh"><br><br>
+
+        Số điện thoại:<br>
+        <input type="text" name="sdt"><br><br>
+
+        Sản phẩm:<br>
+        <select name="sanpham">
+            <option value="ao">Áo</option>
+            <option value="quan">Quần</option>
+            <option value="giay">Giày</option>
+        </select><br><br>
+
+        Số lượng:<br>
+        <input type="number" name="soluong" min="1"><br><br>
+
+        Hình thức thanh toán:<br>
+        <input type="radio" name="thanhtoan" value="tienmat"> Tiền mặt<br>
+        <input type="radio" name="thanhtoan" value="chuyenkhoan"> Chuyển khoản<br><br>
+
+        Ghi chú:<br>
+        <textarea name="ghichu" rows="3" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Đặt hàng">
+
+    </form>
+
+</body>
+</html>

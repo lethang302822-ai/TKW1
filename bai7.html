@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Độ tuổi hoàn chỉnh</title>
+</head>
+<body>
+    <h2>FORM PHẢN HỒI WEBSITE</h2>
+    <form>
+        <table cellpadding="5">
+            <tr>
+                <td>Họ tên:</td>
+                <td><input type="text" name="hoten"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Độ tuổi:</td>
+                <td>
+                    <select name="dotuoi">
+                        <option>Dưới 18</option>
+                        <option>18 - 25</option>
+                        <option>26 - 35</option>
+                        <option>Trên 35</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" name="gioitinh" value="nam"> Nam
+                    <input type="radio" name="gioitinh" value="nu"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Mức độ hài lòng:</td>
+                <td>
+                    <input type="checkbox" name="hailong" value="rat_tot"> Rất tốt
+                    <input type="checkbox" name="hailong" value="tot"> Tốt
+                    <input type="checkbox" name="hailong" value="binh_thuong"> Bình thường
+                </td>
+            </tr>
+            <tr>
+                <td>Nội dung góp ý:</td>
+                <td>
+                    <textarea name="gopy" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi">
+                    <input type="reset" value="Làm lại">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+</body>
+</html>
